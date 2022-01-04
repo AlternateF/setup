@@ -9,7 +9,6 @@
   #bsd*)     echo "BSD" ;;
   #*)        echo "unknown: $OSTYPE" ;;
 #esac
-alias gvim='gvim --remote'
 alias tt='tree -C -s -F -L'
 
 alias fd='find . -type d -name'

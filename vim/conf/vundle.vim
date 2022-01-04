@@ -23,8 +23,8 @@ Plugin 'nelstrom/vim-mac-classic-theme'
 Plugin 'vim-scripts/eclipse.vim'
 Plugin 'jpo/vim-railscasts-theme'
 Plugin 'BenBergman/TagHighlight'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'rdnetto/YCM-Generator'
+"Plugin 'Valloric/YouCompleteMe'
+"Plugin 'rdnetto/YCM-Generator'
 "http://val.markovic.io/articles/a-vim-plugin-that-always-highlights-the-enclosing-tags#fnref:tags
 Plugin 'Valloric/MatchTagAlways'
 Plugin 'Shougo/vimproc', {'do' : 'make'}
@@ -63,12 +63,12 @@ Plugin 'SirVer/ultisnips'
 "let g:UltiSnipsJumpForwardTrigger="<tab>"
 "let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 Plugin 'honza/vim-snippets'
+"javascript snippets : [vim-snippets/javascript.snippets at master · honza/vim-snippets (github.com)](https://github.com/honza/vim-snippets/blob/master/snippets/javascript/javascript.snippets)
 Plugin 'eagletmt/ghcmod-vim'
 "Install https://github.com/bitc/lushtags
 Plugin 'bitc/lushtags'
 Plugin 'vim-scripts/a.vim'
 Plugin 'neoclide/coc.nvim', {'branch': 'release'}
-
 
 call vundle#end() 
 

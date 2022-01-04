@@ -15,5 +15,7 @@ from setup to local :
 from local to setup :
 
 ```
-for fn in aliases gitconfig zshrc screenrc; do rsync -avcizR --stats ~/.$fn ~/setup/$fn; done
+for fn in aliases gitconfig zshrc screenrc; do cp ~/.$fn ~/setup/$fn; done
+cp ~/.vimrc vim/vimrc
+cp -r ~/.vim/conf vim/
 ```

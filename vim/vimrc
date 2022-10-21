@@ -2,7 +2,7 @@ set nocompatible
 filetype off
 let mapleader=","
 
-source ~/.vim/conf/vundle.vim
+source ~/.vim/conf/plugin.vim
 source ~/.vim/conf/navigation.vim
 source ~/.vim/conf/status.vim
 source ~/.vim/conf/gui.vim

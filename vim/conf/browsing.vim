@@ -22,7 +22,7 @@ let g:netrw_liststyle=3
 " map <C-b>     :BufExplorer<CR>
 " map <C-l>     :TagbarToggle<CR>
 
-let g:NERDTreeIndicatorMapCustom = {
+let g:NERDTreeGitStatusIndicatorMapCustom = {
     \ "Modified"  : "✹",
     \ "Staged"    : "✚",
     \ "Untracked" : "✭",
